@@ -39,13 +39,6 @@ dd($jsonData);
       
         dd($jsonData);
     }
-    public function delete()
-    {
-        $response = Http::delete('https://jsonplaceholder.typicode.com/posts/1');
-  
-        $jsonData = $response->json();
-      
-        dd($jsonData);
-    }
+
 }
 
